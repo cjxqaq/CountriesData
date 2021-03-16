@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.text0 {
+  fill: black;
+  font-family: youyuan;
+  font-size: large;
+
+}
+
+.info{
+  fill: darkorange;
+  font-size: 30px;
+  font-family: Cursive;
+}
+
+.bar1{
+  fill: blueviolet;
+  stroke: black;
+  stroke-width: 2;
+}
+.bar_text{
+  fill: #030303;
+
+}
+
+.main_table:hover{
+  fill: red;
+}
+
+.bar1:hover{
+  fill: red;
+}
+
+#main{
+  position: relative;
+  width: 280px;
+  height: 42px;
+}
+.content{
+  width: 280px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.selectItem{
+  display: none;
+  border: 1px solid #eee;
+  width: 290px;
+}
+.selectItem ul{
+  list-style: none;
+}
+.selectItem ul li{
+  height: 30px;
+  background-color: #eeeeee;
+  line-height: 30px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.selectItem ul li:hover{
+  background-color:#f5f7fa;
+}
+.button{
+  fill: #eeeeee;
+  stroke-width: 1;
+  stroke: black;
+}
+.button:hover{
+  fill: aliceblue;
+
+}
+.button_text{
+  fill: #321e07;
+}
